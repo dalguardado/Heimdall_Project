@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Opciones para clientes -Farmacia San Roque</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Selecciona la opcion que deseas realizar</h1>
+        
+        <form method="get" action="ServletLogin3">
+            <select id="sucursal" name="sucursal">
+                <option id="sucursal1" name="sucursal1" value="sucursal1">Sucursal 1: Santa Ana</option>
+                <option id="sucursal2" name="sucursal2" value="sucursal2">Sucursal 2: Ahuachapan</option>
+            </select>
+            <br><br>
+            <input type="hidden" name="formid" value="3" />
+             <button class="button">Ver productos</button>
+        </form>
+        <br>
+        
+         
+        <form method="get" action="datoscompras.jsp">
+            
+        <button class="button">Productos Comprados</button>
+        </form>
+        <br>
+        
+    </body>
+</html>
+
